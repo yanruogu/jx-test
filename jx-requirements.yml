@@ -1,5 +1,5 @@
 apiVersion: core.jenkins-x.io/v4beta1
-kind: Requirements
+kind: Requirementshttps://github.com/yanruogu/jx-test/blob/main/jx-requirements.yml
 spec:
   autoUpdate:
     enabled: false
@@ -20,7 +20,7 @@ spec:
   - key: staging
   - key: production
   ingress:
-    domain: ""
+    domain: "jx.breezey.top"
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
